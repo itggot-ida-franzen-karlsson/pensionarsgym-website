@@ -27,8 +27,30 @@ i.material-icons {
     left: 100vw;
 }
 
+.closeButton {
+    right: 5px;
+}
+
 .show {
     left: 40vw;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90vw;
+    padding-right: 10px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.menu li {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Bree Serif", serif;
+    list-style-type: none;
 }
 
 header {
