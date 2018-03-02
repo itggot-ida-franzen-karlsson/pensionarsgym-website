@@ -25,10 +25,12 @@ i.material-icons {
     width: 60vw;
     background-color: #FE887D;
     left: 100vw;
+    transition: 0.5s ease-in-out;
 }
 
 .closeButton {
-    right: 5px;
+    text-align: right;
+    margin-right: 5px;
 }
 
 .show {
