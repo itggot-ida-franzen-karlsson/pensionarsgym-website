@@ -8,6 +8,22 @@ body {
    height: 100%;
 }
 
+.fade {
+    position: fixed;
+    background-color: black;
+    opacity: 0;
+    visibility: visible;
+    width: 100vw;
+    height: 100vh;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 0.5;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
 i.material-icons {
     font-size: 50px;
     color: #ffffff;
@@ -53,6 +69,10 @@ i.material-icons {
     font-size: 20px;
     font-family: "Bree Serif", serif;
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
