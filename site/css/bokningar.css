@@ -1,0 +1,26 @@
+.title {
+    margin: 0px;
+    padding: 7px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+main>div>img {
+    margin: 3vw;
+    width: 94vw;
+    height: auto;
+}
+
+button {
+    margin: 3vw;
+    width: 94vw;
+    height: 50px; 
+    border-radius: 5px;
+    border: none;
+    background-color: #FE887D;
+    color: white;
+    font-family: "Bree Serif", serif;
+    font-size: 26px; 
+}

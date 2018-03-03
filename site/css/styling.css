@@ -106,13 +106,13 @@ h1 {
 h2 {
     font-family: "Bree Serif", serif;
     color: #044E57;
-    padding-left: 10px;
+    margin: 10px;
     font-size: 20px;
 }
 
 p {
     font-family: "Source Sans Pro", sans-serif;
-    padding-left: 10px;
+    margin: 10px;
 }
 
 .title {
