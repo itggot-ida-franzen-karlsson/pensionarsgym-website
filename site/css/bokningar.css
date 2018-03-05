@@ -24,3 +24,7 @@ button {
     font-family: "Bree Serif", serif;
     font-size: 26px; 
 }
+
+button:hover {
+    background-color: #ec6a5f;
+}

@@ -1,6 +1,6 @@
 function toggleMenu() {
-    var element = document.querySelector(".menu");
-    element.classList.toggle("show");
-    element = document.querySelector(".fade");
-    element.classList.toggle("visible");
+    var menu = document.querySelector(".menu");
+    menu.classList.toggle("show");
+    var fade = document.querySelector(".fade");
+    fade.classList.toggle("visible");
 }
