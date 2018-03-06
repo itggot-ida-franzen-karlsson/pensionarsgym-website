@@ -113,12 +113,14 @@ p {
     margin: 10px;
 }
 
+
 .title {
     margin: 0px;
-    padding: 0px;
+    padding: 7px;
     background-color: #044E57;
-    grid-row: span 1;    
 }
+    
+    
 
 main>article {
     grid-row: span 1;
