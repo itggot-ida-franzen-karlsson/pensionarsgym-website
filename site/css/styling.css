@@ -113,14 +113,11 @@ p {
     margin: 10px;
 }
 
-
 .title {
     margin: 0px;
     padding: 7px;
     background-color: #044E57;
-}
-    
-    
+} 
 
 main>article {
     grid-row: span 1;
@@ -179,4 +176,76 @@ footer td {
     font-family: "Source Sans Pro";
     margin: 0px;
     font-size: 12px;
+}
+
+@media only screen and (min-device-width:799px) {
+
+    header>img {
+        width: auto;
+        height: 10vh;
+    }
+
+    div.menu {
+        position: absolute;
+        left: 11vw;
+        height: 10vh;
+        width: 89vw;
+    }
+
+    div.menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 10vh;
+        margin-top: 20px;
+        padding-right: 10vw;
+    }
+
+    div.menu li {
+        list-style-type: none;
+        text-align: right;
+        border-bottom: none;
+        font-size: 20px;
+        height: 10px;
+    }
+
+    div.closeButton {
+        display: none;
+    }
+
+    div.menuButton {
+        display: none;
+    }
+
+    body {
+        grid-template-rows: 1fr repeat(5, 2fr);
+    }
+
+    header {
+        background-color: #FE887D;
+    }
+
+    .menu>ul>a {
+        height: 30px;
+    }
+
+    main>* {
+        width: 80vw;
+        margin-left: 10vw !important;
+    }
+
+    main div>a>button {
+        width: 80vw !important;
+        margin-left: 0px;
+    }
+
+    main>div img {
+        width: 80vw !important;
+        margin-left: 0px !important;
+    }
+
+    footer {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
 }
