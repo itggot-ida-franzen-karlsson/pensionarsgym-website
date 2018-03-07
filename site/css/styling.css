@@ -1,9 +1,9 @@
 body {
    margin: 0px;
    padding: 0px;
-   display: grid;
+   /* display: grid;
    grid-template-rows: repeat(6, 1fr);
-   grid-template-columns: 1fr;
+   grid-template-columns: 1fr; */
    width: 100%;
    height: 100%;
 }
@@ -79,16 +79,12 @@ header {
 
 header>img {
     margin: 0px;
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 
 main {
-    width: 100%;
-    height: 100%;
-    grid-row: span 5; 
-    display: grid;
-    grid-template-rows: repeat(6, 1fr); 
+    width: 100%; 
 }
 
 h1 {
@@ -115,7 +111,7 @@ p {
 
 .title {
     margin: 0px;
-    padding: 7px;
+    padding: 2px;
     background-color: #044E57;
 } 
 
@@ -128,6 +124,7 @@ footer {
     padding-top: 60px;
     padding-bottom: 20px;
     margin-top: 20px;
+    position: static;
 }
 
 footer div:nth-of-type(1) {
@@ -178,6 +175,10 @@ footer td {
     font-size: 12px;
 }
 
+.wide-boye {
+    display: none;
+}
+
 @media only screen and (min-device-width:799px) {
 
     header>img {
@@ -187,9 +188,9 @@ footer td {
 
     div.menu {
         position: absolute;
-        left: 11vw;
+        left: 11%;
         height: 10vh;
-        width: 89vw;
+        width: 89%;
     }
 
     div.menu ul {
@@ -197,7 +198,7 @@ footer td {
         flex-direction: row;
         justify-content: space-around;
         height: 10vh;
-        margin-top: 20px;
+        margin-top: 3vh;
         padding-right: 10vw;
     }
 
@@ -218,7 +219,7 @@ footer td {
     }
 
     body {
-        grid-template-rows: 1fr repeat(5, 2fr);
+        display: block;
     }
 
     header {
@@ -226,26 +227,47 @@ footer td {
     }
 
     .menu>ul>a {
-        height: 30px;
+        height: 20px;
+    }
+
+    main {
+        margin-top: 0vh;
+        margin-bottom: 5vh;
+        display: block;
+        height: auto;
     }
 
     main>* {
-        width: 80vw;
-        margin-left: 10vw !important;
+        width: 75vw;
+        margin-left: 12.5vw !important;
     }
 
     main div>a>button {
-        width: 80vw !important;
+        width: 75vw !important;
         margin-left: 0px;
     }
 
     main>div img {
-        width: 80vw !important;
+        width: 30vw !important;
         margin-left: 0px !important;
+    }
+
+    img.wide-boye {
+        margin: 2vw !important;
+        width: 71vw !important;
+        display: block;
+    }
+
+    article {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
     }
 
     footer {
         width: 100% !important;
         margin-left: 0px !important;
+        position: static;
+        grid-row: span 1;
+        grid-column: span 1;
     }
 }
