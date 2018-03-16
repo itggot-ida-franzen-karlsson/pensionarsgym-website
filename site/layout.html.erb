@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Senior Gym</title>
-    <link rel="stylesheet" href="./css/styling.css">
-    <link rel="stylesheet" href="./css/bokningar.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Source+Sans+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-
 <body>
     <div class="fade"></div>
     <div class="menuButton" onclick="toggleMenu()">
@@ -40,27 +38,7 @@
         <img src="./img/seniorgymlogo2.png" alt="Logga">
     </header>
     <main>
-        <div class="title">
-            <h1>Bokningar</h1>
-        </div>
-        <div>
-            <h2>Gruppträning</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in tempor dui, nec consectetur libero. Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in tempor dui, nec consectetur libero.Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit. Maecenas in tempor dui, nec consectetur libero. In in dui nisi. Donec laoreet arcu a iaculis maximus. Nunc nec
-                nisl ut massa mattis tristique. Etiam facilisis neque ac aliquam viverra. Duis convallis, lacus quis sagittis
-                euismod, metus ipsum accumsan erat, at sodales lectus turpis in nisl. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Mauris venenatis felis at imperdiet aliquet. In ullamcorper elit a orci dignissim, sit amet
-                imperdiet massa dignissim.
-            </p>
-        </div>
-        <img src="./img/160129-elderlyexercise-stock.jpg" alt="Gruppträning yoga">
-        <a href="./boka.html">
-            <button>Boka</button>
-        </a>
-        <a href="./mina_bokningar.html">
-            <button>Mina bokningar</button>
-        </a>
+        <%= yield%> 
     </main>
     <footer>
         <div>
