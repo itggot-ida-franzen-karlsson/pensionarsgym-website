@@ -111,7 +111,7 @@ p {
 
 .title {
     margin: 0px;
-    padding: 2px;
+    padding: 5px;
     background-color: #044E57;
 } 
 
@@ -256,6 +256,10 @@ footer td {
         font-size: 20px;
     }
 
+    main>.title {
+        grid-column: span 2;
+    }
+
     img.wide-boye {
         margin: 2vw !important;
         width: 71vw !important;
@@ -263,8 +267,8 @@ footer td {
     }
 
     article {
-        margin-top: 3vh;
-        margin-bottom: 3vh;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     footer {
